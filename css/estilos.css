@@ -1,0 +1,94 @@
+/* variables */
+
+:root{
+    /* colores */
+    --blue-color:#0000ff;
+    --blue-hover: #0e0e79;
+    --white-color: #ffffff;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Helvetica;
+}
+nav{
+    display: flex;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.c_logo{
+    height: 40px;
+    width: 35px;
+}
+
+ /* Styles for Main Section */
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.product{
+    padding: 10px;
+    margin-top: -200px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 2px black;
+}
+
+.image-content{
+    text-align: center;
+}
+
+.product-logo{
+    height: 60px;
+    width: 60px;
+}
+
+.main_button{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+}
+
+.main_button:hover{
+    background-color:var(--blue-hover);
+}
