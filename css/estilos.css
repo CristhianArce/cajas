@@ -1,94 +1,123 @@
-/* variables */
-
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/* -------------Variables */
 :root{
-    /* colores */
-    --blue-color:#0000ff;
-    --blue-hover: #0e0e79;
-    --white-color: #ffffff;
+--blue-color:rgb(6, 6, 156);
+--white-color:white;
+--black-color:#313337;
+/* Tipografía */
+--normal:12px;
+/* Espaciado */
+--space:10px;
+/* Box shadow */
+--box:0px 0 2px 1px #e6e5e9;
 }
 
-html, body {
-    padding: 0px;
-    margin: 0px;
-    font-size: 12px;
-    font-family: Helvetica;
+/* -------------Variables */
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
 }
+
+
 nav{
-    display: flex;
-    background-color: var(--blue-color);
-    color: var(--white-color);
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  background-color: var(--blue-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul{
-    display: flex;
+  display: flex;
 }
 
 nav li{
-    padding-left: 20px;
-    list-style: none;
+  padding-left: 20px;
+  list-style: none;
+
 }
 
 nav li a{
-    color: var(--white-color);
-    text-decoration: none;
+  color: var(--white-color);
+  text-decoration: none;
 }
 
 nav li a:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.c_logo{
-    height: 40px;
-    width: 35px;
+nav div img{
+    height: 70px ;
+    width: 60px;
 }
 
- /* Styles for Main Section */
+/* ------------------------ Main section */
+
 .main_section{
-    padding: 15%;
-    text-align: center;
+  padding: 15%;
+  text-align: center;
 }
 
 .products{
-    background-image: url("../images/curve.png");
-    height: 50px;
-    background-size: cover;
-    background-position: center top;
-    padding: 20%;
-    display: flex;
+  background-image: url("../images/curve.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding:20%;
+  display: flex;
 }
 
 .product{
-    padding: 10px;
-    margin-top: -200px;
+  padding: var(--space);
+  margin-top: -240px;
 }
-
 .product .content{
-    background-color: var(--white-color);
-    padding: 15px;
-    box-shadow: 0 0 2px black;
+  background-color: var(--white-color);
+  padding: var(--space);
+  box-shadow: var(--box);
+}
+.img_content{
+  text-align: center;
+  
 }
 
-.image-content{
-    text-align: center;
+.main_button{
+  background-color: var(--blue-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border:0;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
-.product-logo{
+.main_button:hover{
+  background-color: #0000ad;
+}
+
+.img_content img{
     height: 60px;
     width: 60px;
 }
 
-.main_button{
-    background-color: var(--blue-color);
-    color: var(--white-color);
-    width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    border: none;
-}
-
-.main_button:hover{
-    background-color:var(--blue-hover);
+footer{
+    background-color: #313337;
+    color: #e6e5e9;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    align-items: center;
+    padding: 15px;
 }
