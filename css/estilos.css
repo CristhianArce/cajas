@@ -115,15 +115,14 @@ nav div img{
 
 
 .caracteristicas {
-  height: 250px;
+  /* height: 250px; */
   display: flex;
-  align-items: center;
-  text-align: center;
   /* padding: 20%; */
 }
 
 .feature{
   padding: 10%;
+  text-align: center;
 }
 
 .feature img {
@@ -132,7 +131,7 @@ nav div img{
 }
 
 .feature p{
-  text-align: left;
+  text-align: justify;
 }
 
 
