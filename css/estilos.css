@@ -148,23 +148,27 @@ nav div img{
 .menciones{
   text-align: center;
   display: flex;
+  padding: 5%10%;
 }
 
 .mencion{
-  padding: 10px;
-  justify-content: left;
-  /* box-shadow: var(--box); */
-  background: transparent url('img/Rectangle 96.png') 0% 0% no-repeat padding-box;
-  border-radius: 2px 2px 0px 0px;
-  opacity: 1;
+  padding: 0px;
+  justify-content: space-evenly;
+  box-shadow: var(--box);
+  margin: 10px;
+}
+
+.mencion h2{
+  text-align: left;
 }
 
 .mencion img{
-  height: 130px;
-  width: 240px;
+  height: 160px;
+  width: 100%;
 }
 
-.mencion p{
+.mencion p, .mencion h2{
+  margin: 10px;
   text-align: left;
 }
 
