@@ -59,7 +59,8 @@ nav li a:hover{
 
 nav div img{
     height: 70px ;
-    width: 60px;
+    width: 70px;
+    margin:10px;
 }
 
 /* ------------------------ Main section */
@@ -80,7 +81,7 @@ nav div img{
 
 .product{
   padding: var(--space);
-  margin-top: -240px;
+  margin-top: -230px;
 }
 .product .content{
   background-color: var(--white-color);
@@ -112,6 +113,63 @@ nav div img{
     width: 60px;
 }
 
+
+.caracteristicas {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* padding: 20%; */
+}
+
+.feature{
+  padding: 10%;
+}
+
+.feature img {
+  height: 65px;
+  width: 70px;
+}
+
+.feature p{
+  text-align: left;
+}
+
+
+
+
+/* menciones */
+
+.menciones_header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menciones{
+  text-align: center;
+  display: flex;
+}
+
+.mencion{
+  padding: 10px;
+  justify-content: left;
+  /* box-shadow: var(--box); */
+  background: transparent url('img/Rectangle 96.png') 0% 0% no-repeat padding-box;
+  border-radius: 2px 2px 0px 0px;
+  opacity: 1;
+}
+
+.mencion img{
+  height: 130px;
+  width: 240px;
+}
+
+.mencion p{
+  text-align: left;
+}
+
+/* Estilos para el Footer */
+
 footer{
     background-color: #313337;
     color: #e6e5e9;
@@ -120,4 +178,5 @@ footer{
     height: 35px;
     align-items: center;
     padding: 15px;
+    margin: 0px;
 }
