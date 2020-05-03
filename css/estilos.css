@@ -171,6 +171,14 @@ nav div img{
   text-align: left;
 }
 
+
+.producto_img{
+  height: 100px;
+  width:250px;
+}
+
+
+
 /* Estilos para el Footer */
 
 footer{
