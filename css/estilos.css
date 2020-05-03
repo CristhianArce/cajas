@@ -204,6 +204,16 @@ input {
   margin-bottom: 10px;
 }
 
+.submit_btn{
+  padding-top: 4px;
+  background-color: var(--blue-color);
+  border: none;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
 /* Estilos para el Footer */
 
 footer{
